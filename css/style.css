@@ -1,0 +1,48 @@
+body {
+  background-color: #f8cbed;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #706597;
+}
+
+.container h2{
+  margin: 30px auto;
+  text-align: center;
+}
+
+.modes{
+  height: 30px;
+  background-color: #e6c0dc;
+  color: black;
+  padding: 0 10px;
+  font-weight: bold;
+  border: 2px solid #131a2d;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.modes:hover {
+  background-color: #f8cbed;
+  color: black;
+}
+
+.modes option{
+  text-align: center;
+}
+
+
+.clear .pair {
+  background-color:beige;
+}
+
+.dark .odd {
+  background-color: beige;
+}
